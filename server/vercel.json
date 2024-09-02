@@ -1,6 +1,6 @@
 {
     "version": 2,
-    "name": "foodie-hub",
+    "name": "foodie_hub",
     "builds": [
        { "src": "server.js", "use": "@vercel/node" }
     ],
