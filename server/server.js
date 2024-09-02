@@ -22,6 +22,8 @@ app.use(requestLimiter)
 
 // APIs
 app.use('/', AllRoutes);
+app.use("/", (req, res) => res.send("Welcome to foodie_hub backend Zone!"));
+
 
 
 // Synchronize the models with the database and start the server
